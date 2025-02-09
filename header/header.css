@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	color: #454444;
+}
+
+p {
+	font: 300 16px Manrope, sans-serif;
+}
+
+h1{
+	font: 500 32px "EB Garamond", serif;
+	color: black;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+a:link{
+	text-decoration: none;
+	color: #454444;
+}
+
+a:visited{
+	color: #454444;
+}
+
+a:active{
+	color: #c1cfea;
+}
+
+/*                           */
+/*           ХЕДЕР           */
+/*                           */
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	position: fixed;
+	width: 100vw;
+	height: 80px;
+	font: 500 16px Manrope, sans-serif;
+	background-color: white;
+}
+
+.container {
+	box-sizing: border-box;
+	width: 1520px;
+}
+
+.header_list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: end;
+	justify-content: space-evenly;
+	align-content: center;
+}
+
+#header_list_items {
+	list-style: none;
+}
+
+.logo {
+	width: 35px;
+	height: 50px;
+}

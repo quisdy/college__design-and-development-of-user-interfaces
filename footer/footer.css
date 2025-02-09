@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB-Garamond', sans-serif;
+    background-color: #ffffff;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A2BFF2;
+    padding: 20px 40px;
+    color: #000000;
+}
+
+.footer-left {
+    width: 50%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 320px; /* Задайте нужный размер для логотипа */
+    height: auto;
+}
+
+.footer-content {
+    font-family: EB Garamond;
+    flex: 2;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.footer-center, .footer-links {
+    font-family: EB Garamond;
+    width: 200px;
+    height: 170px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.footer-center {
+    margin-right: 20px;
+}
+
+.contact-info {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4B4B7C;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.telegram-icon {
+    background-image: url('tg.svg'); /* Замените на путь к иконке Telegram */
+}
+
+.vk-icon {
+    background-image: url('vk.svg'); /* Замените на путь к иконке ВКонтакте */
+}
+
+.another-icon {
+    background-image: url('dzen.svg'); /* Замените на путь к другой иконке */
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin: 10px 0;
+}
+
+.footer-links ul li a {
+    color: #4B4B7C;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}

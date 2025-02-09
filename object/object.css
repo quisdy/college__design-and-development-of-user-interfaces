@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@200..800&display=swap');
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	color: #454444;
+	font: 300 16px Manrope, sans-serif;
+
+}
+
+h1 {
+	font: 500 32px "EB Garamond", serif;
+	color: black;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #454444;
+}
+
+a:visited {
+	color: #454444;
+}
+
+a:active {
+	color: #c1cfea;
+}
+
+
+/*                           */
+/*           ХЕДЕР           */
+/*                           */
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+	width: 100%;
+	height: 80px;
+	font: 500 16px Manrope, sans-serif;
+	background-color: white;
+}
+
+.container {
+	box-sizing: border-box;
+	width: 1520px;
+	align-self: center;
+}
+
+.header_list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: end;
+	justify-content: space-evenly;
+	align-content: center;
+}
+
+#header_list_items {
+	list-style: none;
+}
+
+.logo {
+	width: 35px;
+	height: 50px;
+}
+
+/* СЕКЦИЯ */
+
+.section {
+	height: auto;
+	background-color: #FFFFFF;
+	padding-top: 100px;
+	width: 100%;
+}
+
+.section .container {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	gap: 100px;
+	width: 1520px;
+	margin: auto;
+}
+
+
+.grid {
+
+	height: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	column-gap: 20px;
+	row-gap: 50px;
+}
+
+.image img,
+.extra-image img {
+	width: 750px;
+	height: 620px;
+}
+
+.info,
+.about-house {
+	width: 750px;
+	height: 620px;
+	background-color: #FFFFFF;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	border: 3px solid rgb(142, 172, 205);
+	color: #000000;
+}
+
+
+.info_up {
+	display: flex;
+	gap: 20px;
+}
+
+#bold {
+	color: #000000;
+	font-weight: bold;
+}
+
+.bold {
+	font-family: EB Garamond;
+	font-size: 36px;
+	line-height: 52px;
+}
+
+.info_right {
+	padding-top: 5px;
+}
+
+
+.no_bold {
+	font-family: EB Garamond;
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 42px;
+	color: #888;
+}
+
+#no_bold {
+	text-decoration: line-through;
+	margin-left: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	margin: 15px 0;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+}
+
+.flat {
+	display: flex;
+	flex-direction: row;
+}
+
+.flat_right {
+	width: 50%;
+}
+
+.flat_left {
+	width: 50%;
+}
+
+
+
+
+
+.buttons {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 32px;
+	text-align: center;
+	border: none;
+	border-radius: 40px;
+	cursor: pointer;
+	font-family: Manrope;
+	font-weight: 800;
+	line-height: 44px;
+	width: 400px;
+	height: 100px;
+	align-self: center;
+}
+
+.call-button {
+	background-color: #27ae60;
+	color: #fff;
+}
+
+.mortgage-button {
+	background-color: #3498db;
+	color: #fff;
+}
+
+button:hover {
+	opacity: 0.9;
+}
+
+/* ФУТЕР */
+.footer {
+	height: 300px;
+	display: flex;
+	align-items: center;
+	background-color: #C1CFEA;
+	color: #000000;
+	margin: 0;
+}
+
+.footer-left {
+	margin: 5px;
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+
+.footer-logo {
+	width: 600px;
+	height: auto;
+}
+
+.footer-content {
+
+	font-family: EB Garamond;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+.footer-center,
+.footer-links {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: EB Garamond;
+	width: 360px;
+	height: 270px;
+	background-color: #FFFFFF;
+	/* padding: 20px; */
+
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.footer-center {
+	margin-right: 40px;
+
+}
+
+
+
+.contact-info {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #000000;
+}
+
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	margin-top: 10px;
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background-color: #ffffff;
+	border-radius: 50%;
+	background-size: cover;
+	transition: box-shadow 200ms linear;
+}
+
+
+.icon:hover {
+	box-shadow: 0 .5em 1em 0 rgba(0, 0, 0, 0.15), 0 .4em .5em -.4em rgba(0, 0, 0, 0.4);
+}
+
+.telegram-icon {
+	background-image: url('../footer/tg.svg');
+}
+
+.vk-icon {
+	background-image: url('../footer/vk.svg');
+}
+
+.another-icon {
+	background-image: url('../footer/dzen.svg');
+}
+
+
+
+
+.footer-links ul {
+
+	list-style: none;
+
+	margin: 0;
+}
+
+.footer-links ul li {
+	margin: 10px 0;
+}
+
+.footer-links ul li a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 20px;
+	transition: box-shadow 200ms linear;
+
+}
+
+.footer-links ul li a:hover {
+	text-decoration: none;
+	box-shadow: 0 .5em 1em 0 rgba(0, 0, 0, 0.15), 0 .4em .5em -.4em rgba(0, 0, 0, 0.4);
+}
