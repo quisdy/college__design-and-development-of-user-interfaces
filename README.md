@@ -11,5 +11,6 @@
 - **Самостоятельность**: Дизайн и код созданы вручную без шаблонов
 
 ## Дизайн в Figma  
-[![Figma Design](https://img.shields.io/badge/View_Full_Design-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/65VJ1DBol3AwqMAk9SNaOv/%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0-%D1%88%D0%BE%D0%BC%D0%B0%D1%81.-%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%BA%D0%B0?node-id=0-1&t=vQhY7m8NMr6inmLT-1) 
+[![Figma Design](https://img.shields.io/badge/Открыть_Дизайн-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/65VJ1DBol3AwqMAk9SNaOv/%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0-%D1%88%D0%BE%D0%BC%D0%B0%D1%81.-%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%BA%D0%B0?node-id=0-1&t=vQhY7m8NMr6inmLT-1) 
+
 *Полный макет с компонентами и стилями*
