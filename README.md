@@ -5,6 +5,8 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/ru/docs/Web/CSS)
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)](https://figma.com)
 
+> ⚠️ **Особенность проекта**: Верстка выполнена только под десктоп (отсутствует адаптив)
+
 ## Зачем этот проект?
 - **Учебная практика**: Реализация полного цикла разработки многостраничного сайта
 - **Портфолио**: Демонстрация навыков вёрстки и работы с Figma
